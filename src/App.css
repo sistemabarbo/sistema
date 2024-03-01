@@ -1,0 +1,81 @@
+body {
+  background: white;
+  text-align: center;
+  margin: auto;
+}
+.principal {
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+}
+b{
+  color: rgb(88, 11, 233);
+}
+nav{
+   text-align: center;
+}
+li {
+ width: 30%;  
+}
+h2{
+  background: rgb(58, 52, 153);
+  color: aliceblue;
+}
+h2:hover{
+  background: rgb(25, 119, 61);
+  color: aliceblue;
+}
+table {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+th{
+  background: rgb(182, 182, 202);
+  font-size: 20px;
+}
+.Listar{
+  border: 1px solid black;
+}
+button {
+  background: red;
+  color: aliceblue;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(194, 72, 133);
+  color: aliceblue;
+  cursor: pointer;
+  padding: 3px;
+}
+.editar{
+  background: blue;
+  color: white;
+  padding: 2px;
+}
+.editar:hover{
+  background: rgb(74, 218, 117);
+  color: white;
+  padding: 3px;
+}
+.salvar {
+  width: 130px;
+  padding: 10px;
+  color: aliceblue;
+  background: rgb(72, 114, 9);
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+input {
+  width: 60%;
+  height: 30px;
+}
+.salvar:hover {
+  width: 110px;
+  padding: 15px;
+  color: aliceblue;
+  background: rgb(15, 28, 211);
+  text-align: center;
+  cursor: pointer;
+}
