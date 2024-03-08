@@ -13,7 +13,7 @@ const [users, setUsers] = useState([]);
 
     function getUsers() {
     
-    axios.get('https://apirestfullteste.000webhostapp.com/').then(function(response) {
+    axios.get('https://api-nodejs-lyart.vercel.app/').then(function(response) {
         console.log(response.data);
         setUsers(response.data);
 
@@ -23,7 +23,7 @@ const [users, setUsers] = useState([]);
 // FUNÇÃO PARA REMOÇÃO DE DADOS
 
 const deleteUser = (id) => {
-    axios.delete(`https://apirestfullteste.000webhostapp.com/${id}/delete`).then(function(response){
+    axios.delete(`https://api-nodejs-lyart.vercel.app/${id}/delete`).then(function(response){
         console.log(response.data);
         getUsers(response.data);
     });
